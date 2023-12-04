@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+body{
+  background: #dfe9f5;
+    
+}
+.wrapper{
+  width: 350px;
+  margin: 45px auto;
+  border-radius: 10px;
+  text-align: center;
+  background: #fff;
+  padding-bottom: 10px;
+  box-shadow: 0 20px 35px grba(0,0,0,0.1);
+}
+.output{
+  background: rgb(0,245,205);
+  background: linear-gradient(124deg,rgba(0,245,205,1),rgba(25,142,176,1)100%);
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+input[type="text"]{
+  width: 90%;
+  font-size: 28px;
+  padding: 30px 5px;
+  margin: 15px 0 20px 0;
+  text-align: right;
+  color: #fff;
+  background: transparent;
+}
+input::placeholder{
+  color: #ffff;
+}
+input[type="button"]{
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+  font-size: 24px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: none;
+}
+input[type="button"]:hover{
+  background: rgb(235, 234, 234);
+  transition: all 0.2s;
+}
+.fun{
+  color: rgb(23, 165, 141);
+}
+.clr{
+  color: red;
+}

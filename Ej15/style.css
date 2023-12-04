@@ -1,0 +1,48 @@
+body > div
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#central
+{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#central > img
+{
+    width: 800px;
+    height: 600px;
+}
+#central > p
+{
+    margin: 15px 0;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#miniaturas
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#miniaturas > img
+{
+    width: 200px;
+    height: 150px;
+    margin: 5px 0;
+    cursor: pointer;
+}
